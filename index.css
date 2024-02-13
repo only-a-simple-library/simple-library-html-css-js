@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: #333;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.logo img {
+	max-height: 50px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-body {
+  display: flex;
+  gap: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #349886;
+  color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #238775;
+}
+
+.links a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+}
+
+.content {
+	padding: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+}
+
+td.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.icon-button {
+  cursor: pointer;
+  padding: 6px;
+  transition: .3s;
+}
+
+.icon-button:hover {
+  background-color: #eee;
+}
